@@ -16,7 +16,6 @@
 		<tbody>
 			<c:forEach items="${list}" var="todo">
 				<tr>
-					<td>${todo.id}</td>
 					<td>${todo.description}</td>
 					<td>${todo.targetDate}</td>
 					<td>${todo.done}</td>
